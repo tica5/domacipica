@@ -1,0 +1,143 @@
+body{
+  background-color: #778193;
+  font-family: verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+nav{
+  padding: 0px;
+  margin-left:25%;
+}
+nav{
+  display: inline;
+  width: 100%;
+  height:20%;
+  line-height:100px;
+  text-align: center;
+  list-style: none;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+nav a:hover
+{
+  background-color: #84a4e0;
+}
+ul li {
+  text-decoration-style: arial;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+ul{
+  border: 1px solid #133370;
+  margin: 50px;
+  margin-right:850px;
+  margin-left: 100px;
+  background-color: #2a313f;
+}
+header{
+background-image: url(pica.png);
+height:100px;
+width:100%;
+font-style: tahoma, sans-serif;
+}
+section.home{
+  text-align: center;
+  font: arial;
+  font-size:30px;
+  background-image: url(pica.png);
+  background-size:cover;
+  margin:0px;
+  padding: 250px;
+}
+.mn{
+  text-decoration:none;
+  background: black;
+  color: white;
+}
+.mn:hover{
+  background: #69767A;
+}
+.hm{
+  text-align: center;
+  text-decoration:none;
+  background-color: black;
+  color: white;
+}
+.hm:hover{
+  background: #69767A;
+}
+section.meni{
+  background-image: url(poz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 25px;
+}
+ td,th{
+  font-size: 20px;
+  background-color: white;
+  text-decoration-style: arial;
+  padding: 2px;
+  margin: 0px;
+}
+th{
+  background-color: #5D92A3;
+}
+table{
+  border: 3px;
+  border-style: solid;
+  background-color: white;
+  width: 50%;
+  text-align:left;
+  margin-left:300px;
+  padding: 30px;
+}
+h2{
+ text-align: center;
+ padding: 10px;
+ margin: 5px;
+}
+section.pictures{
+text-align: center;
+font-size: 25px;
+}
+section.about{
+  color: white;
+text-align: center;
+font: cursive;
+font-size: 25px;
+background-image: url(nama.jpg);
+background-size: cover;
+}
+section.contact{
+  text-align: left;
+  font-size: 20px;
+}
+.vp{
+  margin-left: 150px;
+}
+.img{
+  margin-left:700px;
+}
+img:hover{
+  transform: scale(2,2);
+  transition: 1s;
+  }
+
+footer{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
